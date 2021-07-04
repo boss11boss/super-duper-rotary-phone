@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat';
+}
+
+#backg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    width: 8%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    box-shadow: -2px -1px 13px 16px rgb(219, 219, 219);
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 243, 245);
+}
+#navbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+#line{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(247, 247, 247);
+}
+.navdata{
+    width: 100%;
+    height: 91px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(129, 147, 171);
+}
+
+#dec{
+    position: relative;
+    background-color: rgb(211, 221, 236);
+    color: rgb(40, 55, 68);
+}
+.navdata h4{
+    font-size: 11px;
+    margin-top: 3px;
+}
+.navdata i{
+    font-size: 24px;
+    
+}
+#maintop{
+    width: 100%;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+}
+
+#maindata{
+    width: 100%;
+    height: 684px;
+    padding-left: 110px;
+    padding-top: 30px;
+}
+#maindata h3{
+    margin-left: 45px;
+    color: rgb(129, 147, 171);
+    display: flex;
+    align-items: center;
+}
+#maindata h3 i{
+    margin-right: 2px;
+    font-size:24px;
+}
+
+#maindata input{
+    margin-top: 57px;
+    border-radius: 13px;
+    margin-left: 211px;
+    width: 900px;
+    height: 47px;
+    background-color: #fff;
+    border: none;
+    padding-left: 17px;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+#maindata input::placeholder{
+    color: black;
+    font-weight: 800;
+
+}
+#maindata h5{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#upload{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 160px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 211px;
+}
+#ll{
+    left: 0;
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(76, 116, 228);
+}
